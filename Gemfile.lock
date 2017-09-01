@@ -3,6 +3,7 @@ GEM
   specs:
     json (2.0.2)
     mustermann (1.0.1)
+    openssl (2.0.2)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
@@ -18,6 +19,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
+  openssl
   rack
   sinatra
 
