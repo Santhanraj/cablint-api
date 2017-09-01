@@ -15,10 +15,9 @@ class MyApp < Sinatra::Base
 	pem = OpenSSL::X509::Certificate.new raw	
 	pem.subject.to_a.each do |attri|
         	sub_CN = attri[1].to_s if attri[0] == "CN"
-    	end	
-      { message: sub_CN, success: "1" }.to_json
-
-
-
+    	end
+	File.open("cert.cer", "wb") { |f| f.print pem }
+	message = %x[ruby ../certlint/bin/cablint test.cer]	
+      {subject: sub_CN, message: message, success: "1" }.to_json
   end
 end
