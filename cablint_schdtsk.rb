@@ -29,11 +29,11 @@ def lint(source, inp)
     
     CSV.open("output.csv", "ab") do |csv|
         m.each do |msg|
-            next if msg = ""
-        begin
-            csv << ["#{inp}","#{msg}"]
-        rescue Encoding::UndefinedConversionError
-            csv << ["#{inp} - there was some error with this file","#{msg}"]
+            next if msg == ""
+            begin
+                csv << ["#{inp}","#{msg}"]
+            rescue Encoding::UndefinedConversionError
+                csv << ["#{inp} - there was some error with this file","#{msg}"]
         end
     end
 
