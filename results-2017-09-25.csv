@@ -1,0 +1,42 @@
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
+File Name,Cablint Output
+test.cer,E: BR certificates must include an HTTP URL of the OCSP responder
+test.cer,W: BR certificates should include an HTTP URL of the issuing CA's certificate
+test.cer,E: BR certificates must include certificatePolicies
+test.cer,E: BR certificates with CRL Distribution Point must include HTTP URL
+65.55.42.137.cer,E: Unknown TLD in SAN
