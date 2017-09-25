@@ -64,8 +64,10 @@ end
 
 begin
     start_time = Time.now()
-    CSV.open("results-#{Date.today}.csv", "ab") do |csv|
-        csv << ["File Name", "Cablint Output"]
+    unless File.file?("results-#{Date.today}.csv")
+        CSV.open("results-#{Date.today}.csv", "ab") do |csv|
+            csv << ["File Name", "Cablint Output"]
+	    end
 	end
     total = Dir[File.join("source", '**', '*')].count { |file| File.file?(file) }
     complete = 1
