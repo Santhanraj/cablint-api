@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'rack'
-gem 'sinatra'
+gem 'sinatra' ~> 2.0.1
 gem 'json'
 gem 'openssl'
 gem 'simpleidn'
